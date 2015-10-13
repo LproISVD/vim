@@ -1,0 +1,57 @@
+Les commandes de bases pour bien utiliser vim
+
+Mode insertion : pour entrer en insertion, cela ce fait avec la touche i
+Mode commande : pour entrer en commande, appuyer sur echap
+Mode Visualiation : pour entrer en mode visualisation, v ou V
+
+
+Ce déplacer : les fleches, ou bien alors h j k l
+
+
+
+Aller en début de page : G
+Aller en fin de page : GG
+Choisir une ligne :n° de ligne
+
+
+Sauvegarder :w
+Quitter :q
+Sauvegarder + quitter :wq
+
+sortir sans sauvegarder :q!
+
+On peu éditer un autre fichier depuis vim avec :e + nom_du_fichier
+
+voir les buffers :ls
+choisir son buffer :b n° du buffer
+
+
+
+Split écran verticalement CTRL +V
+Split écran horizontalement CTRL +H
+
+Circuler de fenêtre en fenêtre CTRL + fleche
+
+
+
+en mode commande :
+
+$ = permet d'aller a la fin de la ligne courante
+0 = permet d'aller au début de la ligne courante
+w = saute de mot en mot
+x = efface le caractère
+dd = efface ligne courante
+d$ = efface de la fin de ligne jusqu'au curseur
+d0 = efface du début de ligne jusqu'au curseur
+d2w = efface deux mots
+d5c = efface 5 caractères
+
+copier =y
+
+yy = ligne courante
+y$ = de la fin à mon cursuer
+y0 = du début à mon curseur
+
+coller = p
+
+:r + fichier = copier le fichier entièrement
