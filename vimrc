@@ -1,0 +1,12 @@
+set nocompatible
+runtime! config/**/*.vim
+execute pathogen#infect()
+execute pathogen#helptags()
+set number
+set undolevels=150
+set smartindent
+syntax on
+colorscheme Tomorrow-Night
+set ttyfast
+set t_Co=256
+set showmatch
